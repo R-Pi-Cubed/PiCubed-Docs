@@ -1,2 +1,16 @@
 #theme: jekyll-theme-minimal
 remote_theme: just-the-docs/just-the-docs
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "PiCubed homepage":
+    - "https://PiCubed.me"
+  "Downloads":
+    - "https://github.com/R-Pi-Cubed/PiCubed-Docs.git"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+

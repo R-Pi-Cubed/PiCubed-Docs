@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PiCubed - Home
+title: Home
 nav_order: 1
 permalink: /
 description: "Documentation for the PiCubed Sserver install assistant."
