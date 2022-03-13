@@ -1,3 +1,11 @@
+---
+layout: default
+title: PiCubed - Home
+nav_order: 1
+permalink: /
+description: "Documentation for the PiCubed Sserver install assistant."
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/R-Pi-Cubed/PiCubed-Docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
