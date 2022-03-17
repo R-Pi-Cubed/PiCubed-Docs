@@ -64,10 +64,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "PiCubed homepage":
-    - "https://PiCubed.me"
   "Downloads":
     - "https://github.com/R-Pi-Cubed/PiCubed.git"
+#  "PiCubed homepage":
+#    - "https://PiCubed.me"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -84,7 +84,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
+gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/R-Pi-Cubed/PiCubed-Docs.git" # the github URL for your repo
 gh_edit_branch: "gh-pages" # the branch that your docs is served from
