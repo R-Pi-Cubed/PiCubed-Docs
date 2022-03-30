@@ -40,9 +40,9 @@ If this is your first time tinkering with a Pi you may not be familiar with the 
 
 A [headless](https://en.wikipedia.org/wiki/Headless_computer) OS simply means that there is no graphical user interface. A GUI uses a lot of system resources and simply put there are not a lot of resources available. We need all possible system resources available to run the server. This means that you'll be connecting to your Pi over a network connection. We'll explain that later.
 
-So with those 2 criteria in mind that limits our choices. Fortunately those limited choices are good ones. The recommended OS for your Pi server is [Ubuntu Server](https://ubuntu.com/download/raspberry-pi). We are currently recommending version [21.10](https://ubuntu.com/download/raspberry-pi/thank-you?version=21.10&architecture=server-arm64+raspi) but only until the end of April 2022 when the new 22.04 LTS version comes out. Ubuntu has a large community of users and there is a ton of online documentation. It's tried and tested and is the OS that is supported for PiCibed. 
+So with those 2 criteria in mind that limits our choices. Fortunately those limited choices are good ones. The recommended OS for your Pi server is [Ubuntu Server](https://ubuntu.com/download/raspberry-pi). We are currently recommending version [21.10](https://ubuntu.com/download/raspberry-pi/thank-you?version=21.10&architecture=server-arm64+raspi) but only until the end of April 2022 when the new 22.04 LTS version comes out. Ubuntu has a large community of users and there is a ton of online documentation. It's tried and tested and is the OS that is supported for PiCubed. 
 
-Now you might be asking "what about [Raspbian](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)". The [64-bit lite](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-01-28/2022-01-28-raspios-bullseye-arm64-lite.zip) version of the official Pi OS has only recently been released. Time will tell if it will become the favorite over Ubuntu for Raspberry Pi servers but for now Ubuntu is still the recommended OS. You should also know that there are small differences in the Pi OS that make the installation process slightly different than what's explained here. We'll pint them out where we can but be warned that if you don't use the supported OS, you're on your own.
+Now you might be asking "what about [Raspbian](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)". The [64-bit lite](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-01-28/2022-01-28-raspios-bullseye-arm64-lite.zip) version of the official Pi OS has only recently been released. Time will tell if it will become the favorite over Ubuntu for Raspberry Pi servers but for now Ubuntu is still the recommended OS. You should also know that there are small differences in the Pi OS that make the installation process slightly different than what's explained here. We'll point them out where we can but be warned that if you don't use the supported OS, you're on your own.
 
 
 ---
@@ -50,3 +50,10 @@ Now you might be asking "what about [Raspbian](https://www.raspberrypi.com/softw
 # How cool are you?
 
 Well if you are here reading this I'd say you're pretty cool but that's not going to help your server if it's a hot potato. To get the most out of your Pi 4 we're going to be overclocking the CPU. Having a server running constantly on an overclocked Pi will produce heat. Heat is the enemy of your system. Temperatures of over 80°c will cause your Pi to throttle and you will see undesirable effects on the performance of your server. To keep this heat in check you will need a cpu fan for your Pi. The most [basic](https://www.raspberrypi.com/products/raspberry-pi-4-case-fan/) of fans will do. If you don't like basic you might like something a little more [beefy](https://www.jeffgeerling.com/blog/2019/raspberry-pi-4-might-not-need-fan-anymore). I run Ice towers on all of my Pi servers.
+
+
+---
+
+# SD or SSD?
+
+Without question the biggest performance upgrade you can make to your server is the addition of an external SSD (Solid State Drive)

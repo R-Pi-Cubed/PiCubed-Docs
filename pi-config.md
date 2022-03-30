@@ -4,9 +4,9 @@ title: Configure your Raspberry Pi
 nav_order: 3
 description: How to configure your Raspberry Pi
 ---
-'sudo nano /boot/firmware/config.txt'
+sudo nano /boot/firmware/config.txt
 
-'#Disable the Wifi and Bluetooth
+#Disable the Wifi and Bluetooth
 dtoverlay=disable-wifi
 dtoverlay=disable-bluetooth
 
@@ -18,4 +18,4 @@ gpu_mem=16
 
 #Overclock your Pi
 over_voltage=6
-arm_freq=2100'
+arm_freq=2100
