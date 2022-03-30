@@ -18,5 +18,5 @@ gpu_mem=16
 
 Overclock your Pi
 over_voltage=6
-arm_freq=2100
+arm_freq=2147
 
