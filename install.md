@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installation
-nav_order: 4
+nav_order: 5
 description: How to use the PiCubed installation assistant
 ---
 git clone https://github.com/R-Pi-Cubed/PiCubed
