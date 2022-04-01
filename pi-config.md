@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configure your Raspberry Pi
-nav_order: 4
+nav_order: 3
 description: How to configure your Raspberry Pi
 ---
 sudo apt update

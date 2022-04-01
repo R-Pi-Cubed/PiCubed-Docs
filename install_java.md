@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install Java
-nav_order: 3
+nav_order: 4
 description: How to install Java on your Raspberry Pi
 ---
 java -version  
