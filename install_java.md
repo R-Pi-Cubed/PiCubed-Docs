@@ -8,7 +8,7 @@ java -version
 
 sudo apt install openjdk-17-jre-headless
 
-java home
+sudo update-alternatives --config java
 
 sudo nano /etc/environment
 
