@@ -32,13 +32,18 @@ enter
 
 sudo reboot
 
-To view the time on your server use the command 'date'.  
+To view the time on your server use the command  
+'''date'''  
+
 Typically, your server will generate an output with the default UTC time zone.  
 UTC is Coordinated Universal Time, the time at zero degrees longitude.  
-To change your time zone you can use the 'timedatectl' command.  
-First, run this command to generate a list of available time zones:  
-'timedatectl list-timezones'  
+To change your time zone you first run this command to generate a list of available time zones.  
+'''timedatectl list-timezones'''
+
 A list of time zones will print to your screen. You can press SPACE to page down, and b to page up. Once you find the correct time zone, make note of it then type q to exit the list.  
-Next, you can set the time zone with timedatectl set-timezone by replacing the highlighted portion with the time zone you found in the list. You’ll need to use sudo with timedatectl to make this change:  
-'sudo timedatectl set-timezone America/New_York'  
-You can verify your changes by running 'date' again.  
+
+You can set the time zone with the folowing command by replacing the highlighted portion with the time zone you found in the list. You’ll need to use sudo with timedatectl to make this change.  
+'''sudo timedatectl set-timezone **America/New_York**'''  
+
+To verify your changes run the 'date' command again.  
+'''date'''
