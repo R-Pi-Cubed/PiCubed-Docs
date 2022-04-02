@@ -4,13 +4,13 @@ title: Configure your Raspberry Pi
 nav_order: 3
 description: How to configure your Raspberry Pi
 ---
-sudo apt update
+```sudo apt update```
 
-sudo apt upgrade -y
+```sudo apt upgrade -y```
 
-sudo reboot
+```sudo reboot```
 
-sudo nano /boot/firmware/config.txt
+```sudo nano /boot/firmware/config.txt```
 
 ```
 #Disable the Wifi and Bluetooth  
@@ -31,7 +31,7 @@ cntrl+x
 y  
 enter  
 
-sudo reboot
+```sudo reboot```
 
 To view the time on your server use the command  
 ```date```  
