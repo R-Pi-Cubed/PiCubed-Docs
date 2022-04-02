@@ -12,6 +12,7 @@ sudo reboot
 
 sudo nano /boot/firmware/config.txt
 
+```
 #Disable the Wifi and Bluetooth  
 dtoverlay=disable-wifi  
 dtoverlay=disable-bluetooth
@@ -25,7 +26,7 @@ gpu_mem=16
 #Overclock your Pi  
 over_voltage=6  
 arm_freq=2147
-
+```
 cntrl+x  
 y  
 enter  
@@ -33,17 +34,17 @@ enter
 sudo reboot
 
 To view the time on your server use the command  
-'''date'''  
+```date```  
 
 Typically, your server will generate an output with the default UTC time zone.  
 UTC is Coordinated Universal Time, the time at zero degrees longitude.  
 To change your time zone you first run this command to generate a list of available time zones.  
-'''timedatectl list-timezones'''
+```timedatectl list-timezones```
 
 A list of time zones will print to your screen. You can press SPACE to page down, and b to page up. Once you find the correct time zone, make note of it then type q to exit the list.  
 
 You can set the time zone with the folowing command by replacing the highlighted portion with the time zone you found in the list. You’ll need to use sudo with timedatectl to make this change.  
-'''sudo timedatectl set-timezone **America/New_York**'''  
+```sudo timedatectl set-timezone **America/New_York**```  
 
 To verify your changes run the 'date' command again.  
-'''date'''
+```date```
